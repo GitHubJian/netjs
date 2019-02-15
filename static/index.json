@@ -1,0 +1,17 @@
+{
+    "1": {
+        "js": "/static/js/1.678850f0665fb5220f56.js"
+    },
+    "csr": {
+        "js": "/static/js/csr.d6183356d38256aef833.js",
+        "css": "/static/css/csr.d6183356d38256aef833.css"
+    },
+    "global": {
+        "js": "/static/js/global.4d6fb9111d0f0f52a8f6.js",
+        "css": "/static/css/global.4d6fb9111d0f0f52a8f6.css"
+    },
+    "news": {
+        "js": "/static/js/news.54ca14e47a242fd0c1fe.js",
+        "css": "/static/css/news.54ca14e47a242fd0c1fe.css"
+    }
+}

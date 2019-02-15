@@ -1,0 +1,7 @@
+{
+  "enable": true,
+  "dir": "setting",
+  "env": "production",
+  "instance": "xiaows",
+  "separator": "-"
+}
