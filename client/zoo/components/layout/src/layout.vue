@@ -34,4 +34,9 @@ body,
   height: 100%;
   overflow: hidden;
 }
+.main{
+  height:100%;
+  overflow-x:hidden;
+  overflow-y: auto;
+}
 </style>
