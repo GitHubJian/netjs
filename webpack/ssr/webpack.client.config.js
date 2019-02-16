@@ -111,7 +111,8 @@ const webpackConfig = {
             {
               loader: 'css-loader',
               options: {
-                minimize: true // css压缩
+                minimize: true, // css压缩，
+                url: true
               }
             }
           ]

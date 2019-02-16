@@ -8,6 +8,7 @@ module.exports = {
   alias: {
     root: root,
     '@zoo': path.resolve(root, 'client/zoo'),
-    '@css': path.resolve(root, 'client/zoo/css')
+    '@css': path.resolve(root, 'client/zoo/css'),
+    '@asset': path.resolve(root, 'client/assert')
   }
 }
