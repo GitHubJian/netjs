@@ -30,6 +30,7 @@ export default {
     z-index:2;
     display:flex;
     border-top:solid 1px #dddddd;
+    background:white;
     div{
         flex:1;
         background-repeat:no-repeat;

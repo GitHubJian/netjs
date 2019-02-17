@@ -3,7 +3,7 @@
         <mheader/>
         <div class="main-verse">
             <div class="verse-title">早发白帝城</div>
-            <div class="verse-auth">唐 李白</div>
+            <div class="verse-auth">唐 ・ 李白</div>
             <div class="verse-content">朝辞白帝彩云间，
                 <br>千里江陵一日还。
                 <br>两岸猿声啼不住，
