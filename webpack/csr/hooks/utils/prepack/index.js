@@ -5,27 +5,15 @@ const pathConfig = require(path.resolve(root, './config/path.config.js'))
 const glob = require('glob')
 const fse = require('fs-extra')
 const fs = require('fs')
+const Mustache = require('mustache')
+const template = fs.readFileSync(path.resolve(__dirname, './template.js'), {
+  encoding: 'utf-8'
+})
 
 const createContent = entryPath => {
-  return [
-    `import Vue from 'vue';`,
-    `import entry from '${entryPath}/app.vue';`,
-    `import { createRouter } from '${entryPath}/router/index.js';`,
-    `import { createStore } from '${entryPath}/store/index.js';`,
-    `import { sync } from 'vuex-router-sync';`,
-    '',
-    `const router = createRouter();`,
-    `const store = createStore();`,
-    '',
-    `sync(store, router);`,
-    '',
-    `export default new Vue({`,
-    `    router,`,
-    `    store,`,
-    `    el: '#app',`,
-    `    render: h => h(entry)`,
-    `})`
-  ].join('\n')
+  return Mustache.render(template, {
+    entryPath: entryPath
+  })
 }
 
 const prepack = async () => {
