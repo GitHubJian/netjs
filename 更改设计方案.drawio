@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T05:12:36.688Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="pny2Mx24z7reQxk-J-Be" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T05:18:12.376Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="4mE811HlUH5c_s4JkpyQ" version="14.2.9" type="github">
   <diagram id="kttMU8aqjuccED0ETCXs" name="第 1 页">
     <mxGraphModel dx="2066" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,6 +172,9 @@
         </mxCell>
         <mxCell id="LLrbU3jSWrvTlNxRiFdD-61" value="点击页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LLrbU3jSWrvTlNxRiFdD-64" value="若命中缓存，请求接口后再初始化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="420" width="116" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
