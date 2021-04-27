@@ -63,7 +63,7 @@
     "path-to-regexp": "^2.4.0",
     "query-string": "^6.2.0",
     "random": "^2.0.13",
-    "redis": "^2.8.0",
+    "redis": "^3.1.1",
     "url-query-parser": "^1.1.0",
     "vue": "^2.5.20",
     "vue-router": "^3.0.2",
